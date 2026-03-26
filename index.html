@@ -1,189 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Aditya Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Aditya Jaiswal | Android Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <div id="stars"></div>
 
 <section class="hero">
-
-<h1>Aditya Jaiswal</h1>
-<p class="typing"></p>
-
-<div class="hero-buttons">
-<a class="btn btn-primary" href="#projects">View Projects</a>
-<a class="btn btn-outline" href="#contact">Contact</a>
-</div>
-
-<div class="device-showcase">
-
-<div class="laptop">
-<img src="portfolio.png" alt="Portfolio">
-</div>
-
-<div class="phone">
-<img src="images/Profile.jpeg" alt="Profile">
-</div>
-
-</div>
-
+    <h1>Aditya Jaiswal</h1>
+    <p class="typing"></p>
+    <div class="hero-buttons">
+        <a class="btn btn-primary" href="#projects">
+            <i class="fas fa-code"></i> View Projects
+        </a>
+        <a class="btn btn-outline" href="#contact">
+            <i class="fas fa-paper-plane"></i> Contact
+        </a>
+    </div>
+    <div class="device-showcase">
+        <div class="laptop">
+            <img src="portfolio.png" alt="Portfolio">
+        </div>
+        <div class="phone">
+            <img src="images/Profile.jpeg" alt="Profile">
+        </div>
+    </div>
 </section>
 
 <nav>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
 </nav>
 
 <!-- ABOUT -->
-
 <section id="about">
-
-<h2>About Me</h2>
-
-<div class="card">
-<p>
-I am Aditya Jaiswal, an Android developer passionate about building real world mobile applications using Kotlin, Firebase and backend technologies. I focus on building safety, monitoring and smart mobile solutions.
-</p>
-</div>
-
+    <h2><i class="fas fa-user-astronaut"></i> About Me</h2>
+    <div class="card">
+        <p>
+            I'm <strong>Aditya Jaiswal</strong>, an Android developer passionate about crafting real-world mobile applications using <span class="highlight">Kotlin, Firebase, and modern backend technologies</span>. I specialize in building safety, monitoring, and smart mobile solutions that make a difference. With a strong focus on clean architecture and seamless user experiences, I turn ideas into powerful apps.
+        </p>
+    </div>
 </section>
 
 <!-- SKILLS -->
-
 <section id="skills">
-
-<h2>Skills</h2>
-
-<div class="skills">
-<span>Kotlin</span>
-<span>Android Studio</span>
-<span>Firebase</span>
-<span>MySQL</span>
-<span>Django</span>
-<span>REST API</span>
-</div>
-
+    <h2><i class="fas fa-cogs"></i> Tech Arsenal</h2>
+    <div class="skills">
+        <span><i class="fab fa-android"></i> Kotlin</span>
+        <span><i class="fas fa-mobile-alt"></i> Android Studio</span>
+        <span><i class="fas fa-fire"></i> Firebase</span>
+        <span><i class="fas fa-database"></i> MySQL</span>
+        <span><i class="fab fa-python"></i> Django</span>
+        <span><i class="fas fa-cloud-upload-alt"></i> REST API</span>
+    </div>
 </section>
 
 <!-- PROJECTS -->
-
 <section id="projects">
-
-<h2>Android Projects</h2>
-
-<div class="projects-container">
-
-<!-- SheShield -->
-
-<div class="project-card">
-
-<h3>SheShield – Women Safety App</h3>
-
-<div class="phone-frame">
-<div class="screen">
-<img id="sheSlider" src="images/family2.png">
-</div>
-</div>
-
-<p>
-Women safety Android application with SOS alerts, live location sharing, voice activation, shake detection and emergency notification system.
-</p>
-
-<div class="project-links">
-<a href="https://github.com/Aditya9jaiswal" target="_blank">GitHub</a>
-<a href="https://youtube.com" target="_blank">Demo Video</a>
-</div>
-
-</div>
-
-<!-- FamilyShield -->
-
-<div class="project-card">
-
-<h3>FamilyShield – Family Monitoring App</h3>
-
-<div class="phone-frame">
-<div class="screen">
-<img id="familySlider" src="images/family1.png">
-</div>
-</div>
-
-<p>
-Family protection and monitoring application with device owner mode, remote alerts, location tracking and security notifications.
-</p>
-
-<div class="project-links">
-<a href="https://github.com/Aditya9jaiswal/familyShield" target="_blank">GitHub</a>
-<a href="https://youtube.com" target="_blank">Demo Video</a>
-</div>
-
-</div>
-
-</div>
-
+    <h2><i class="fas fa-rocket"></i> Android Projects</h2>
+    <div class="projects-container">
+        <!-- SheShield -->
+        <div class="project-card">
+            <h3>🛡️ SheShield – Women Safety App</h3>
+            <div class="phone-frame">
+                <div class="screen">
+                    <img id="sheSlider" src="images/she1.png" alt="SheShield Screenshot">
+                </div>
+            </div>
+            <p>Women safety Android application with SOS alerts, live location sharing, voice activation, shake detection and emergency notification system.</p>
+            <div class="project-links">
+                <a href="https://github.com/Aditya9jaiswal" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i> Demo Video</a>
+            </div>
+        </div>
+        <!-- FamilyShield -->
+        <div class="project-card">
+            <h3>👨‍👩‍👧 FamilyShield – Family Monitoring App</h3>
+            <div class="phone-frame">
+                <div class="screen">
+                    <img id="familySlider" src="images/family1.png" alt="FamilyShield Screenshot">
+                </div>
+            </div>
+            <p>Family protection and monitoring application with device owner mode, remote alerts, location tracking and security notifications.</p>
+            <div class="project-links">
+                <a href="https://github.com/Aditya9jaiswal/familyShield" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i> Demo Video</a>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- CONTACT -->
-
 <section id="contact">
-
-<h2>Contact Me</h2>
-
-<div class="contact">
-
-<p>📧 Email:
-<a href="mailto:adityajaiswalcs@gmail.com">
-adityajaiswalcs@gmail.com
-</a>
-</p>
-
-<p>💻 GitHub:
-<a href="https://github.com/Aditya9jaiswal" target="_blank">
-github.com/Aditya9jaiswal
-</a>
-</p>
-
-<p>💼 LinkedIn:
-<a href="https://www.linkedin.com/in/aditya-jaiswal-120984303" target="_blank">
-linkedin.com/in/aditya-jaiswal-120984303
-</a>
-</p>
-
-<p>📷 Instagram:
-<a href="https://www.instagram.com/aditya_jaiswal989" target="_blank">
-instagram.com/aditya_jaiswal989
-</a>
-</p>
-
-<p>📄 Resume:
-<a href="https://drive.google.com" target="_blank">
-Download Resume
-</a>
-</p>
-
-</div>
-
+    <h2><i class="fas fa-envelope-open-text"></i> Let's Connect</h2>
+    <div class="contact">
+        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:adityajaiswalcs@gmail.com">adityajaiswalcs@gmail.com</a></p>
+        <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Aditya9jaiswal" target="_blank">github.com/Aditya9jaiswal</a></p>
+        <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/aditya-jaiswal-120984303" target="_blank">linkedin.com/in/aditya-jaiswal-120984303</a></p>
+        <p><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/aditya_jaiswal989" target="_blank">instagram.com/aditya_jaiswal989</a></p>
+        <p><i class="fas fa-file-alt"></i> Resume: <a href="https://drive.google.com" target="_blank">Download Resume <i class="fas fa-download"></i></a></p>
+    </div>
 </section>
 
 <footer>
-<p>© 2026 Aditya Jaiswal | Android Developer</p>
+    <p>© 2026 Aditya Jaiswal | Android Developer</p>
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
